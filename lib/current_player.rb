@@ -8,8 +8,10 @@ def turn_count(counts)
   return counters
 end
 
-
-
-#def current_player()
-
-#end
+def current_player(counts)
+  if turn_count(counts) % 2 == 0
+    return "X"
+  else
+    return "O"
+  end 
+end
