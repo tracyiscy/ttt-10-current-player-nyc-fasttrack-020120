@@ -1,7 +1,7 @@
 def turn_count(counts)
   counters = 0
   counts.each do |i|
-    counters +=1
+    counters +=3
     return counters
   end
 end
