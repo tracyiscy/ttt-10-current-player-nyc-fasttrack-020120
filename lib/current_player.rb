@@ -1,6 +1,6 @@
 def turn_count(counts)
   counters = 0
-  board.each do |x|
+  counts.each do |x|
     if x == "X" || x=="O"
       counters+=1
     end
