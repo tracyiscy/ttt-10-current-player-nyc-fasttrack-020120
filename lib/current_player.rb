@@ -3,8 +3,7 @@ def turn_count(counts)
   counts.each do |i|
     if i == "O" || i == "X"
       puts "this is the #{i}"
-
-    return counters
+    end
   end
 end
 #def current_player()
