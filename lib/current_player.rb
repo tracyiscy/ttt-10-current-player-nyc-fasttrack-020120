@@ -2,7 +2,8 @@ def turn_count(counts)
   counters = 0
   counts.each do |i|
     if i == "O" || i == "X"
-      puts "this is the #{i}"
+      counters+=1
+      puts counters
     end
   end
 end
