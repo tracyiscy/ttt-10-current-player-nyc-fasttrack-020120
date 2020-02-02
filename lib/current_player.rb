@@ -3,11 +3,9 @@ def turn_count(counts)
   counts.each do |i|
     if i == "O" || i == "X"
       counters+=1
-    else
-      counters = counters
-    return counters
     end
   end
+  return counters
 end
 
 
